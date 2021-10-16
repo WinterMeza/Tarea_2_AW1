@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarea 2</title>
+    <script src="https://kit.fontawesome.com/5587cd0df4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/icono.jpg">
+</head>
+<!--Hecho por: Winter Aníbal Meza Jiménez.| Curso: 5to Nivel"B"-2021(2).
+
+Asignatura Aplicaciones Web | Docente: Ing Patricia Quiroz Palma.-->
+
+<body>
+    
+    <form class="formulario">
+        <div>
+        <img class="imagen"src="img/icono.jpg" alt="Formulario">
+    </div>
+    
+        <h1>REGISTRO DE <span><strong>CLIENTE</strong></span></h1>
+
+        <i class="fas fa-user"> Nombres: </i><input type="text" class="input">
+        <label for="nombre" class="label">Nombres:</label>
+
+        <i class="fas fa-user"> Apellidos:</i><input type="text" class="input" required autofocus>
+        <label for="apellido" class="label">Apellidos:</label>
+
+        <i class="fas fa-envelope"> Correo eléctronico:</i><input type="email" class="input" required autofocus>
+        <label for="email" class="label">Correo:</label>
+
+        <i class="fas fa-address-card"> Cédula:</i><input type="text" class="input" required autofocus>
+        <label for="cedula" class="label">Cédula:</label>
+
+        <i class="fas fa-calendar-alt"> Fecha de nacimiento:</i><input type="date" class="input" required autofocus>
+        <label for="data" class="label">fecha de nacimiento:</label>
+
+        <i class="fas fa-phone-square-alt"> Teléfono:</i><input type="tel" class="input" required autofocus>
+        <label for="telefono" class="label">Teléfono:</label>
+
+        <i class="fas fa-map-marked-alt"> Dirección:</i><input type="text" class="input" required autofocus>
+        <label for="direccion" class="label">Dirección:</label>
+
+        <input type="submit" value="Enviar" class="submit">
+        <input type="reset" value="Borrar" class="reset">
+
+        <footer>
+            <p> <strong>Hecho por: Winter Aníbal Meza Jiménez.| Curso: 5to Nivel"B"-2021(2).</strong> </p>
+            <p> <strong>Asignatura Aplicaciones Web | Docente: Ing Patricia Quiroz Palma. </strong></p>
+        </footer>
+    </form>
+    <script src="formulario.js">
+
+    </script>
+
+</body>
+
+</html>
